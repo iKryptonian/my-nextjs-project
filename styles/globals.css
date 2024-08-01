@@ -1,0 +1,67 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global font and color settings */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Container styling */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Ad banner styling */
+.banner {
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.banner img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.banner-content {
+  display: flex;
+  align-items: center;
+}
+
+.banner-details {
+  flex: 3;
+  margin-left: 20px;
+}
+
+.banner-details h6 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.banner-details p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.banner-details button {
+  margin-top: 10px;
+}
+
+/* Modal styling */
+.modal {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
